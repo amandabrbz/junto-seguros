@@ -1,86 +1,134 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
+  <h3 align="center">Junto Seguros</h3>
+
+  <p align="center">
+    Vaga Pessoa Desenvolvedora Front End.
+    <br />
+    <a href="https://github.com/GitJMSeguradora/jobs/blob/master/front/Challenge.md"><strong>Desafio »</strong></a>
+  </p>
 </p>
-<h1 align="center">
-  Gatsby's default starter
-</h1>
 
-Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+## Guide
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
+- [Sobre o Desafio](#Sobre-o-Desafio)
+  - [Avaliações](#Avaliações)
+    - [Diferenciais](#Diferenciais)
+- [Getting Started](#getting-started)
+  - [Pré requisitos](#Pré-requisitos)
+  - [Clonando e inicializando](#Clonando-e-inicializando)
+- [Protótipo](#Protótipo)
+- [Conclusões](#Conclusões)
+  - [Aprendizados](#Aprendizados)
+  - [Dificuldades](#Dificuldades)
+  - [Pontos de melhorias](#Pontos-de-melhorias)
+- [Deploy](#Deploy)
+- [Contato](#Contato)
+- [Referências](#Referências)
+- [Licença](#Licença)
 
-## 🚀 Quick start
+## Sobre o Desafio
 
-1.  **Create a Gatsby site.**
+O desafio é criar um SPA em React, onde seja possível realizar a busca de um filme pelo seu título. Também deve ser possível visualizar mais detalhes dos filmes.
 
-    Use the Gatsby CLI to create a new site, specifying the default starter.
+A API a ser utilizada será a [OMDb](http://www.omdbapi.com) ao qual o candidato deverá criar uma conta.
 
-    ```shell
-    # create a new Gatsby site using the default starter
-    gatsby new my-default-starter https://github.com/gatsbyjs/gatsby-starter-default
-    ```
+### Avaliações
 
-1.  **Start developing.**
+  - [ ] Layout bem feito
+  - [ ] Código organizado
+  - [ ] Deve publicar o projeto como público no Github
 
-    Navigate into your new site’s directory and start it up.
+#### Diferenciais
 
-    ```shell
-    cd my-default-starter/
-    gatsby develop
-    ```
+  - [ ] **Diferencial:** Utilizar alguma biblioteca de controle de estado
+  - [ ] **Diferencial:** >60% de cobertura de testes
+  - [ ] **Diferencial:** Styled Components
+  - [ ] **Diferencial:** Criar outras áreas, como por exemplo, filmes prediletos, área de login, etc
+  - [ ] **Diferencial:** Otimizar webpack.
 
-1.  **Open the source code and start editing!**
+## Getting Started
 
-    Your site is now running at `http://localhost:8000`!
+Para ter uma cópia local e fazer rodá-lo, siga esses passos:
 
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
+### Pré requisitos 
 
-    Open the `my-default-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+Ter instalado no computador:
 
-## 🧐 What's inside?
+* Node.js superior a versão 12
+* [Gatsby](https://www.gatsbyjs.org/)
 
-A quick look at the top-level files and directories you'll see in a Gatsby project.
+### Clonando e inicializando
 
-    .
-    ├── node_modules
-    ├── src
-    ├── .gitignore
-    ├── .prettierrc
-    ├── gatsby-browser.js
-    ├── gatsby-config.js
-    ├── gatsby-node.js
-    ├── gatsby-ssr.js
-    ├── LICENSE
-    ├── package-lock.json
-    ├── package.json
-    └── README.md
+:small_red_triangle_down: Comandos devem ser digitados pelo terminal
 
-1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
+Para clonar o projeto:
 
-2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
+```sh
+git clone https://github.com/amandabrbz/juntoseguros.git
+```
 
-3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
+Subir o servidor local:
 
-4.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
+```sh
+cd juntoseguros
+gatsby develop
+```
 
-5.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.org/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
+Após a aplicação inicializar, deve abrir uma aba automaticamente no browser padrão, rodando o projeto na porta ``:8000``
 
-6.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail).
+```sh
+http://localhost:8000
+```
 
-7.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
+:no_entry_sign: Caso a porta já esteja sendo utilizada, o próprio terminal avisa e indica se você deseja utilizar outra porta.
 
-8.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.org/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
+## Protótipo
 
-9.  **`LICENSE`**: Gatsby is licensed under the MIT license.
+Para acessar os protótipos utilizados como base da codificação, acesse o [Whimsical](https://whimsical.com/4D1APFSXfAPjKLUZSjxjMG).
 
-10. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
+## Conclusões
 
-11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
+A cada vez que desenvolvo algo em React, acabo aprendendo muita coisa legal. O pensamento de componentização no inicio chega ser abstrato, entretanto quando você vai ligando com teorias do design, como o *Atomic Design* por exemplo, esse pensamento em componentização vai ficado muito mais claro.
 
-12. **`README.md`**: A text file containing useful reference information about your project.
+### Aprendizados
+
+Aprendi que tudo pode virar um componente.
+
+### Dificuldades
+
+:heavy_multiplication_x: ----
+
+:heavy_multiplication_x: Testes
+
+### Pontos de melhorias
+
+:heavy_plus_sign: Criar e participar da cultura do TDD
+
+:heavy_plus_sign:
+
+## Deploy
+
+<center>
+
+[Github](https://github.com/amandabrbz/junto-seguros.git) | [Netlify](x)
+</center>
+
+## Contato
+
+Amanda Barboza @ [LinkedIn](https://linkedin/in/amandabrbz)
+
+email: amanda.brbz@hotmail.com
+
+## Referências
+
+[Estruturando Projetos](https://blog.matheuscastiglioni.com.br/como-organizar-projetos-em-react/) | 
+[Estruturando Pastas](https://github.com/frontendbr/forum/issues/726) | 
+[Rotas](https://celke.com.br/artigo/como-criar-rotas-no-react) | 
+[Axios](https://alligator.io/react/axios-react/) |
+
+## Licença
+
+Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 🎓 Learning Gatsby
 
@@ -90,10 +138,4 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 - **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
 
-## 💫 Deploy
-
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/gatsbyjs/gatsby-starter-default)
-
-<!-- AUTO-GENERATED-CONTENT:END -->
