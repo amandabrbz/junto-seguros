@@ -6,7 +6,7 @@ class Footer extends Component {
   render() {
     return (
       <Styled.Footer>
-        <Container fluid>
+        <Container>
           <Row className="footer-link">
             <Col sm>
               <Styled.Brand>MovieSearch</Styled.Brand>

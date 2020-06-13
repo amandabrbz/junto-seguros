@@ -7,12 +7,12 @@ class Header extends Component {
   render() {
     return (
       <Styled.Header>
-        <Container fluid>
+        <Container>
           <Row>
-            <Col md={4}>
+            <Col md={2}>
               <Styled.Brand>MovieSearch</Styled.Brand>
             </Col>
-            <Col md={8}>
+            <Col md={10}>
               <Styled.Menu>
                 <Link
                   to="/about"
