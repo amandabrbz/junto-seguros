@@ -14,13 +14,12 @@ class Erro404 extends Component {
             "Infelizmente a página desejada não pode ser encontrada!"
           }
         />
-        <Container>
-          <Row>
-            <Col>
-              <Image src={Scroll} alt="home" fluid />
-            </Col>
-          </Row>
-        </Container>
+        <Imagem
+          imagemName={Scroll}
+          imagemAlt={"home"}
+          width={"500px"}
+          margin={"50px auto"}
+        />
       </Styled.Main>
     )
   }
