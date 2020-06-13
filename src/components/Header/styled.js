@@ -5,10 +5,6 @@ export const Brand = styled.h1`
   text-align: left;
   color: #cfe0f9;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-  @media only screen and (max-width: 558px) {
-    text-align: left;
-  }
 `
 export const Header = styled.header`
   width: 100%;
