@@ -12,20 +12,20 @@ export const Footer = styled.footer`
 export const H4 = styled.h4`
   font-size: 1.4rem;
   text-align: left;
-  /* color: ${global.lightBlue};
-  font-family: ${global.font}; */
+  color: #cfe0f9;
+  font-family:tahoma;
   margin-bottom: 0px;
 `
 
 export const FooterText = styled.p`
   font-size: 0.8rem;
-  /* color: ${global.lightBlue};
-  font-family: ${global.font}; */
+  color: #cfe0f9;
+  font-family:tahoma;
 `
 
 export const Brand = styled.h3`
   font-size: 1.5rem;
   text-align: left;
-  /* color: ${global.lightBlue};
-  font-family: ${global.font}; */
+  color: #cfe0f9;
+  font-family:tahoma;
 `
