@@ -4,7 +4,7 @@ import SEO from "../SEO"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home | MovieSearch" />
+    <SEO title="Home | PickMovie APP" />
     <h1>Home</h1>
   </Layout>
 )

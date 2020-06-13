@@ -9,13 +9,13 @@ class Footer extends Component {
         <Container>
           <Row className="footer-link">
             <Col sm>
-              <Styled.Brand>MovieSearch</Styled.Brand>
+              <Styled.Brand>PickMovie APP</Styled.Brand>
             </Col>
             <Col sm>
-              <Styled.H4>Siga a MovieSearch</Styled.H4>
+              <Styled.H4>Siga a PickMovie APP</Styled.H4>
             </Col>
             <Col sm>
-              <Styled.H4>SAC MovieSearch</Styled.H4>
+              <Styled.H4>SAC PickMovie APP</Styled.H4>
               <h5>
                 <a href="tel:+">0800 900 3030</a>
               </h5>

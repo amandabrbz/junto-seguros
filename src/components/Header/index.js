@@ -10,7 +10,7 @@ class Header extends Component {
         <Container>
           <Row>
             <Col md={2}>
-              <Styled.Brand>MovieSearch</Styled.Brand>
+              <Styled.Brand>PickMovie APP</Styled.Brand>
             </Col>
             <Col md={10}>
               <Styled.Menu>

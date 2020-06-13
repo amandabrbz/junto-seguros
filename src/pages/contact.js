@@ -6,7 +6,7 @@ class Contact extends Component {
   render() {
     return (
       <Layout>
-        <SEO title="Contato | MovieSearch" />
+        <SEO title="Contato | PickMovie APP" />
         <h1>Contato</h1>
       </Layout>
     )

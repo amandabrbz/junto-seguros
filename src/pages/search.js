@@ -6,7 +6,7 @@ class Search extends Component {
   render() {
     return (
       <Layout>
-        <SEO title="Search | MovieSearch" />
+        <SEO title="Search | PickMovie APP" />
         <h1>Procure um filme</h1>
       </Layout>
     )

@@ -7,7 +7,7 @@ import Erro404 from "../components/Main/404"
 
 const NotFoundPage = () => (
   <Layout>
-    <SEO title="404 | MovieSearch" />
+    <SEO title="404 | PickMovie APP" />
     <Erro404/>
   </Layout>
 )
