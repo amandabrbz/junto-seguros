@@ -26,20 +26,20 @@ class Header extends Component {
               </Styled.Menu>
               <Styled.Menu>
                 <Link
-                  to="/review"
-                  activeStyle={{ color: "#25353D" }}
-                  activeClassName="active"
-                >
-                  Reviews
-                </Link>
-              </Styled.Menu>
-              <Styled.Menu>
-                <Link
                   to="/search"
                   activeStyle={{ color: "#25353D" }}
                   activeClassName="active"
                 >
                   Procure seu filme
+                </Link>
+              </Styled.Menu>
+              <Styled.Menu>
+                <Link
+                  to="/review"
+                  activeStyle={{ color: "#25353D" }}
+                  activeClassName="active"
+                >
+                  Reviews
                 </Link>
               </Styled.Menu>
             </Col>

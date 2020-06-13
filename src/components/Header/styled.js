@@ -10,7 +10,7 @@ export const Header = styled.header`
   width: 100%;
   top: 0;
   background-color: #E89A41;
-  padding: 15px 15px 15px 0;
+  padding: 15px 0;
   display: block;
 `
 
@@ -23,6 +23,7 @@ export const Menu = styled.span`
   a {
     text-decoration:none;
     color: #fff;
+    padding-right: 15px;
     :hover {
       color: #25353D;
     }
