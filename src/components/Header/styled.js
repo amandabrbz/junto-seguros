@@ -10,7 +10,7 @@ export const Header = styled.header`
   width: 100%;
   top: 0;
   background-color: #283654;
-  padding: 15px;
+  padding: 15px 15px 15px 0;
   display: block;
 `
 
