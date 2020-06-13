@@ -1,13 +1,17 @@
-import React from "react"
+import React, { Component} from "react"
 import Layout from "../components/Layout"
 import SEO from "../SEO"
 import Home from "../components/Main/Home"
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home | PickMovie APP" />
-    <Home />
-  </Layout>
-)
+class IndexPage extends Component {
+  render() {
+    return (
+      <Layout>
+        <SEO title="Home | PickMovie APP" />
+        <Home />
+      </Layout>
+    )
+  }
+}
 
 export default IndexPage

@@ -16,7 +16,7 @@ export const Description = styled.p`
   max-width: 600px;
   margin: 0px 0 20px 0;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: #000;
+  color: #333;
   text-align: left;
   font-size: 1.5em;
 

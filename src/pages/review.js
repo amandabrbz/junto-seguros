@@ -1,16 +1,17 @@
-import React, {Component} from "react"
-import Layout from '../components/Layout'
+import React, { Component } from "react"
+import Layout from "../components/Layout"
+import Reviews from "../components/Main/Reviews"
 import SEO from "../SEO"
 
-class Contact extends Component {
+class Review extends Component {
   render() {
     return (
       <Layout>
-        <SEO title="Contato | PickMovie APP" />
-        <h1>Contato</h1>
+        <SEO title="Reviews | PickMovie APP" />
+        <Reviews />
       </Layout>
     )
   }
 }
 
-export default Contact
+export default Review
