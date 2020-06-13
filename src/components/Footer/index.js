@@ -16,9 +16,9 @@ class Footer extends Component {
             </Col>
             <Col sm>
               <Styled.H4>SAC PickMovie APP</Styled.H4>
-              <h5>
+              <Styled.H5>
                 <a href="tel:+">0800 900 3030</a>
-              </h5>
+              </Styled.H5>
               <Styled.FooterText>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Debitis optio vel praesentium impedit odio similique maxime sunt

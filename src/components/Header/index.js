@@ -10,13 +10,15 @@ class Header extends Component {
         <Container>
           <Row>
             <Col md={2}>
-              <Styled.Brand>PickMovie APP</Styled.Brand>
+              <Link to="/" style={{ textDecoration: "none"}}>
+                <Styled.Brand>PickMovie APP</Styled.Brand>
+              </Link>
             </Col>
             <Col md={10}>
               <Styled.Menu>
                 <Link
                   to="/about"
-                  activeStyle={{ color: "red" }}
+                  activeStyle={{ color: "#25353D" }}
                   activeClassName="active"
                 >
                   Sobre
@@ -24,17 +26,17 @@ class Header extends Component {
               </Styled.Menu>
               <Styled.Menu>
                 <Link
-                  to="/contact"
-                  activeStyle={{ color: "red" }}
+                  to="/review"
+                  activeStyle={{ color: "#25353D" }}
                   activeClassName="active"
                 >
-                  Contato
+                  Reviews
                 </Link>
               </Styled.Menu>
               <Styled.Menu>
                 <Link
                   to="/search"
-                  activeStyle={{ color: "red" }}
+                  activeStyle={{ color: "#25353D" }}
                   activeClassName="active"
                 >
                   Procure seu filme
