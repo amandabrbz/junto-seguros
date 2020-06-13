@@ -1,13 +1,14 @@
 import React, {Component} from "react"
 import Layout from "../components/Layout"
+import Aboutt from "../components/Main/About"
 import SEO from "../SEO"
 
 class About extends Component {
   render() {
     return (
       <Layout>
-        <SEO title="Sobre | PickMovie APP" />
-        <h1>Sobre a PickMovie APP</h1>
+        <SEO title="About | PickMovie APP" />
+        <Aboutt/>
       </Layout>
     )
   }

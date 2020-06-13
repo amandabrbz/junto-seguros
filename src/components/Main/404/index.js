@@ -1,5 +1,4 @@
 import React, { Component } from "react"
-import { Link } from "gatsby"
 import { Container, Row, Col, Image } from "react-bootstrap"
 import * as Styled from "./styled"
 import Scroll from "../../../images/404/scroll.png"
@@ -12,7 +11,7 @@ class Erro404 extends Component {
         <Title titlePage={"Ops! Página não encontrada :("} />
         <Description
           descriptionPage={
-            "Sentimos muito que tenha caido nessa página, entretanto volte a home para navegar tranquilamente."
+            "Infelizmente a página desejada não pode ser encontrada!"
           }
         />
         <Container>

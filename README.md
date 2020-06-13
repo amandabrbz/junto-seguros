@@ -24,6 +24,7 @@
 - [Deploy](#Deploy)
 - [Contato](#Contato)
 - [Referências](#Referências)
+  - [Assets](#Assets)
 - [Licença](#Licença)
 
 ## Sobre o Desafio
@@ -50,12 +51,12 @@ A API a ser utilizada será a [OMDb](http://www.omdbapi.com) ao qual o candidato
 
 Para ter uma cópia local e fazer rodá-lo, siga esses passos:
 
-### Pré requisitos 
+### Pré requisitos
 
 Ter instalado no computador:
 
-* Node.js superior a versão 12
-* [Gatsby](https://www.gatsbyjs.org/)
+*Node.js superior a versão 12
+*[Gatsby](https://www.gatsbyjs.org/)
 
 ### Clonando e inicializando
 
@@ -64,13 +65,13 @@ Ter instalado no computador:
 Para clonar o projeto:
 
 ```sh
-git clone https://github.com/amandabrbz/juntoseguros.git
+git clone https://github.com/amandabrbz/spa-juntoseguros.git
 ```
 
 Subir o servidor local:
 
 ```sh
-cd juntoseguros
+cd spa-juntoseguros
 gatsby develop
 ```
 
@@ -121,10 +122,15 @@ email: amanda.brbz@hotmail.com
 
 ## Referências
 
-[Estruturando Projetos](https://blog.matheuscastiglioni.com.br/como-organizar-projetos-em-react/) | 
-[Estruturando Pastas](https://github.com/frontendbr/forum/issues/726) | 
-[Rotas](https://celke.com.br/artigo/como-criar-rotas-no-react) | 
-[Axios](https://alligator.io/react/axios-react/) |
+- [Estruturando Projetos](https://blog.matheuscastiglioni.com.br/como-organizar-projetos-em-react/)
+- [Estruturando Pastas](https://github.com/frontendbr/forum/issues/726)
+- [Rotas](https://celke.com.br/artigo/como-criar-rotas-no-react)
+- [Axios](https://alligator.io/react/axios-react/)
+
+### Assets
+
+- [ ] [Ilustrações](https://undraw.co/illustrations)
+- [ ] [Paleta de cores](https://coolors.co/f24341-e89a41-cbcfe0-ddd5b2-818578-535d5b-25353d)
 
 ## Licença
 

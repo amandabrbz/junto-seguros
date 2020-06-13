@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import Layout from "../components/Layout"
+import Find from "../components/Main/Search"
 import SEO from "../SEO"
 
 class Search extends Component {
@@ -7,7 +8,7 @@ class Search extends Component {
     return (
       <Layout>
         <SEO title="Search | PickMovie APP" />
-        <h1>Procure um filme</h1>
+        <Find />
       </Layout>
     )
   }
