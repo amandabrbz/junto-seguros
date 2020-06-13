@@ -1,27 +1,13 @@
-import React, { Component } from "react"
-import { Container, Row, Col } from "react-bootstrap"
+import React from "react"
 import Carrousel from "../../Carousel"
-// import * as Styled from "./styled"
+import { Title, Description } from "../../Global"
 
-class Home extends Component {
-  render() {
-    return (
-      <Container fluid>
-        <Row>
-          <Col className="p-0">
-            <Carrousel />
-          </Col>
-        </Row>
-        <Container>
-          <Row>
-            <Col>
-              <h1> This is home</h1>
-            </Col>
-          </Row>
-        </Container>
-      </Container>
-    )
-  }
-}
+const Home = () => (
+  <>
+    <Carrousel />
+    <Title titlePage={"Filmes mais buscados da semana:"} />
+    <Description descriptionPage={"Confira agora: "} />
+  </>
+)
 
 export default Home
