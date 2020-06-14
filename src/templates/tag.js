@@ -7,8 +7,8 @@ import SEO from "../SEO"
 
 export default class Tag extends Component {
   render() {
-    const { data, pathContext } = this.props
-    const { tag } = pathContext
+    const { data, pageContext } = this.props
+    const { tag } = pageContext
     return (
       <Layout>
         <SEO title="Tags | PickMovie APP" />
