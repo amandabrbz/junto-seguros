@@ -1,6 +1,11 @@
 import React, { Component } from "react"
 import { Container, Row, Col } from "react-bootstrap"
 import * as Styled from "./styled"
+import {
+  FacebookWithCircle,
+  TwitterWithCircle,
+  GithubWithCircle,
+} from "@styled-icons/entypo-social/"
 
 class Footer extends Component {
   render() {
@@ -13,6 +18,16 @@ class Footer extends Component {
             </Col>
             <Col sm>
               <Styled.H4>Siga a PickMovie APP</Styled.H4>
+              <Row>
+                <Col className="my-2">
+                  <FacebookWithCircle style={{ width: "36px" }} />
+                  <TwitterWithCircle
+                    style={{ width: "36px" }}
+                    className="mx-3"
+                  />
+                  <GithubWithCircle style={{ width: "36px" }} />
+                </Col>
+              </Row>
             </Col>
             <Col sm>
               <Styled.H4>Contato PickMovie APP</Styled.H4>
