@@ -7,7 +7,7 @@ class NotFoundPage extends Component {
   render() {
     return (
       <Layout>
-        <SEO title="404 | PickMovie APP" />
+        <SEO title="404" />
         <Erro404 />
       </Layout>
     )

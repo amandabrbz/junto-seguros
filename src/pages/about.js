@@ -7,7 +7,7 @@ class About extends Component {
   render() {
     return (
       <Layout>
-        <SEO title="About | PickMovie APP" />
+        <SEO title="About" />
         <Aboutt/>
       </Layout>
     )

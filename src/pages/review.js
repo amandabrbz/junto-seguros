@@ -7,7 +7,7 @@ class Review extends Component {
   render() {
     return (
       <Layout>
-        <SEO title="Reviews | PickMovie APP" />
+        <SEO title="Reviews" />
         <Reviews />
       </Layout>
     )

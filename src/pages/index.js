@@ -7,7 +7,7 @@ class IndexPage extends Component {
   render() {
     return (
       <Layout>
-        <SEO title="Home | PickMovie APP" />
+        <SEO title="Home" />
         <Home />
       </Layout>
     )

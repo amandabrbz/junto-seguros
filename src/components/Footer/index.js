@@ -19,13 +19,15 @@ class Footer extends Component {
             <Col sm>
               <Styled.H4>Siga a PickMovie APP</Styled.H4>
               <Row>
-                <Col className="my-2">
-                  <FacebookWithCircle style={{ width: "36px" }} />
+                <Col className="my-2 d-flex justify-content-start">
+                  <FacebookWithCircle
+                    style={{ width: "36px", color: "#fff" }}
+                  />
                   <TwitterWithCircle
-                    style={{ width: "36px" }}
+                    style={{ width: "36px", color: "#fff" }}
                     className="mx-3"
                   />
-                  <GithubWithCircle style={{ width: "36px" }} />
+                  <GithubWithCircle style={{ width: "36px", color: "#fff" }} />
                 </Col>
               </Row>
             </Col>

@@ -14,7 +14,7 @@ const Aboutt = () => (
     <Imagem
       imagemName={Video}
       imagemAlt={"Movies Online"}
-      width="600px"
+      width="400px"
       margin="50px auto"
     />
     <Description
@@ -25,7 +25,7 @@ const Aboutt = () => (
     <Imagem
       imagemName={Internet}
       imagemAlt={"Movies Online"}
-      width="500px"
+      width="400px"
       margin="50px auto"
     />
   </>

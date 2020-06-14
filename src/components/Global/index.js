@@ -3,17 +3,18 @@ import { Container, Row, Col, Image } from "react-bootstrap"
 import * as Styled from "./styled"
 
 export const Title = props => (
-  <Container>
+  <Container className="d-flex justify-content-center">
     <Row>
       <Col>
         <Styled.Title>{props.titlePage}</Styled.Title>
+        <Styled.hr/>
       </Col>
     </Row>
   </Container>
 )
 
 export const SubTitle = props => (
-  <Container>
+  <Container className="d-flex justify-content-center">
     <Row>
       <Col>
         <Styled.SubTitle>{props.subtitlePage}</Styled.SubTitle>
@@ -23,7 +24,7 @@ export const SubTitle = props => (
 )
 
 export const Description = props => (
-  <Container>
+  <Container className="d-flex justify-content-center">
     <Row>
       <Col>
         <Styled.Description>{props.descriptionPage}</Styled.Description>
@@ -33,7 +34,7 @@ export const Description = props => (
 )
 
 export const Imagem = props => (
-  <Container>
+  <Container className="d-flex justify-content-center">
     <Row>
       <Col>
         <Image
@@ -42,6 +43,16 @@ export const Imagem = props => (
           style={{ width: props.width, margin: props.margin }}
           fluid
         />
+      </Col>
+    </Row>
+  </Container>
+)
+
+export const Input = props => (
+  <Container>
+    <Row>
+      <Col>
+        <Styled.Input />
       </Col>
     </Row>
   </Container>
