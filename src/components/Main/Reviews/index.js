@@ -1,23 +1,45 @@
-import React from "react"
-import { Title, Description, Imagem } from "../../Global"
-import Internet from "../../../images/About/internet.svg"
+import React, { Component } from "react"
+import { graphql } from "gatsby"
+import Posts from "../../Posts"
+import { Title, Description } from "../../Global"
 
-const Reviews = () => (
-  <>
-    <Title titlePage={"Review dos seus filmes favoritos"} />
-    <Description
-      descriptionPage={
-        "Descubra o que os críticos estão dizendo sobre o seu filme."
+export default class Reviews extends Component {
+  render() {
+    const { data } = this.props
+    return (
+      <>
+        <Title titlePage={"Review dos seus filmes favoritos"} />
+        <Description
+          descriptionPage={
+            "Descubra o que os críticos estão dizendo sobre o seu filme."
+          }
+        />
+        <Posts data={data} />
+      </>
+    )
+  }
+}
+
+export const pageQuery = graphql`
+  query {
+    allMarkdownRemark(
+      limit: 2000
+      sort: { fields: [fields___prefix], order: DESC }
+      filter: { frontmatter: { draft: { ne: true } } }
+      ) {
+      edges {
+        node {
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+            tags
+            date(formatString: "DD/MM/YYYY")
+            description
+          }
+        }
       }
-    />
-
-    <Imagem
-      imagemName={Internet}
-      imagemAlt={"Movies Online"}
-      width={"500px"}
-      margin={"50px auto"}
-    />
-  </>
-)
-
-export default Reviews
+    }
+  }
+`;

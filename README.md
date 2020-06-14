@@ -131,6 +131,7 @@ email: amanda.brbz@hotmail.com
 
 - [ ] [Ilustrações](https://undraw.co/illustrations)
 - [ ] [Paleta de cores](https://coolors.co/f24341-e89a41-cbcfe0-ddd5b2-818578-535d5b-25353d)
+- [ ] [Cat ipsum](http://www.catipsum.com/index.php)
 
 ## Licença
 

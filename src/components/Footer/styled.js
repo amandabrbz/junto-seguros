@@ -6,6 +6,7 @@ export const Footer = styled.footer`
   left: 0;
   background-color: #e89a41;
   padding: 20px 0;
+  position: inherit;
 `
 
 export const H4 = styled.h4`
