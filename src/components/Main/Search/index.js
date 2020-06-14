@@ -4,7 +4,7 @@ import MovieList from "../../SearchList"
 
 const Find = () => (
   <>
-    <Title titlePage={"Procure seus filmes"} />
+    <Title titlePage={"Aceita uma indicação? Procure agora"} />
     <Description
       descriptionPage={
         "Afim de um filme hoje? Procure por uma palavra chave e encontre nossas indicações de filmes."

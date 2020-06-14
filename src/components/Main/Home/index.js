@@ -6,7 +6,7 @@ import HomeList from "../../HomeList"
 const Home = () => (
   <>
     <Carrousel />
-    <Title titlePage={"Filmes mais buscados da semana:"} />
+    <Title titlePage={"Título mais buscado da semana:"} />
     <Description descriptionPage={"Confira agora: "} />
     <HomeList />
   </>

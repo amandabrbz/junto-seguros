@@ -4,7 +4,7 @@ import MovieCard from "../Card"
 
 class HomeList extends Component {
   state = {
-    moviesList: ["tt3890160", "tt0944947"],
+    moviesList: ["tt3890160"],
   }
 
   render() {

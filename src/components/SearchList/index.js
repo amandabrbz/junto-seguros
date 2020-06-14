@@ -7,7 +7,7 @@ import { SearchAlt } from "@styled-icons/boxicons-regular/"
 
 class MoviesList extends Component {
   state = {
-    moviesList: ["tt2294629"],
+    moviesList: [""],
     searchTerm: "",
   }
 
