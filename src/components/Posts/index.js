@@ -18,3 +18,28 @@ const Posts = ({ data }) => {
 }
 
 export default Posts
+
+export const pageQuery = graphql`
+  query {
+    allMarkdownRemark(
+      limit: 2000
+      sort: { fields: [fields___prefix, fields___slug], order: DESC }
+      filter: { frontmatter: { draft: { ne: true } } }
+    ) {
+      edges {
+        node {
+          fields {
+            prefix
+            slug
+          }
+          frontmatter {
+            title
+            tags
+            date(formatString: "DD/MM/YYYY")
+            description
+          }
+        }
+      }
+    }
+  }
+`

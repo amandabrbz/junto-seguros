@@ -24,12 +24,13 @@ export const pageQuery = graphql`
   query {
     allMarkdownRemark(
       limit: 2000
-      sort: { fields: [fields___prefix], order: DESC }
+      sort: { fields: [fields___prefix, fields___slug], order: DESC }
       filter: { frontmatter: { draft: { ne: true } } }
-      ) {
+    ) {
       edges {
         node {
           fields {
+            prefix
             slug
           }
           frontmatter {
@@ -42,4 +43,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`;
+`

@@ -1,9 +1,4 @@
 import styled from "styled-components"
-import {
-  FacebookWithCircle,
-  TwitterWithCircle,
-  GithubWithCircle,
-} from "@styled-icons/entypo-social/"
 
 export const Footer = styled.footer`
   width: 100%;
