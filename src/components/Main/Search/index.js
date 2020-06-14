@@ -1,6 +1,6 @@
 import React from "react"
 import { Title, Description } from "../../Global"
-import MovieList from "../../List"
+import MovieList from "../../SearchList"
 
 const Find = () => (
   <>
