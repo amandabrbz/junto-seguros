@@ -15,7 +15,7 @@ class MoviesList extends Component {
     event.preventDefault()
     axios
       .get(
-        `https://www.omdbapi.com/?apikey=fb2ba1d1&s=${this.state.searchTerm}&plot=full`
+        `https://www.omdbapi.com/?apikey=fb2ba1d1&s=${this.state.searchTerm}`
       )
       .then(res => res.data)
       .then(res => {
