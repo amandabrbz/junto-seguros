@@ -21,7 +21,6 @@ class MovieCard extends Component {
     const {
       Poster,
       Title,
-      Released,
       imdbRating,
       Plot,
       Genre,
@@ -42,10 +41,9 @@ class MovieCard extends Component {
         <div className="movie-info">
           <div>
             <h2>{Title}</h2>
-            <small>Lançamento: {Released}</small>
           </div>
           <h4>Avaliação: {imdbRating} / 10</h4>
-          <p>{Plot && Plot.substr(0, 200)}...</p>
+          <p>{Plot && Plot.substr(0, 100)}...</p>
           <div className="tags-container">
             {Genre && Genre.split(", ").map(g => <span key={g}>{g}</span>)}
           </div>
