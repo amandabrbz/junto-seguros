@@ -16,6 +16,8 @@
 - [Getting Started](#getting-started)
   - [Pré requisitos](#Pré-requisitos)
   - [Clonando e inicializando](#Clonando-e-inicializando)
+    - [Modo desenvolvimento](#Modo-desenvolvimento)
+    - [Modo build](#Modo-build)
 - [Protótipo](#Protótipo)
 - [Conclusões](#Conclusões)
   - [Aprendizados](#Aprendizados)
@@ -55,8 +57,8 @@ Para ter uma cópia local e fazer rodá-lo, siga esses passos:
 
 Ter instalado no computador:
 
-*Node.js superior a versão 12
-*[Gatsby](https://www.gatsbyjs.org/)
+- [ ] Node.js superior a versão 12
+- [ ] [Gatsby](https://www.gatsbyjs.org/)
 
 ### Clonando e inicializando
 
@@ -67,6 +69,8 @@ Para clonar o projeto:
 ```sh
 git clone https://github.com/amandabrbz/spa-juntoseguros.git
 ```
+
+#### Modo desenvolvimento
 
 Subir o servidor local:
 
@@ -81,37 +85,53 @@ Após a aplicação inicializar, deve abrir uma aba automaticamente no browser p
 http://localhost:8000
 ```
 
-:no_entry_sign: Caso a porta já esteja sendo utilizada, o próprio terminal avisa e indica se você deseja utilizar outra porta.
+:no_entry_sign: Caso a porta já esteja sendo utilizada, o próprio terminal avisa.
+
+#### Modo build
+
+O modo build consiste na geração estática das páginas, podendo ver rotas e procurar por páginas não localizadas por exemplo.
+
+Subir o servidor:
+
+```sh
+cd spa-juntoseguros
+gatsby build
+gatsby serve
+```
+
+Após a aplicação inicializar, deve abrir uma aba automaticamente no browser padrão, rodando o projeto na porta ``:000``
+
+```sh
+http://localhost:9000
+```
+
+:no_entry_sign: Caso a porta já esteja sendo utilizada, o próprio terminal avisa.
 
 ## Protótipo
 
-Para acessar os protótipos utilizados como base da codificação, acesse o [Whimsical](https://whimsical.com/4D1APFSXfAPjKLUZSjxjMG).
+Para acessar os protótipos utilizados como base para codificação, acesse o [Whimsical](https://whimsical.com/4D1APFSXfAPjKLUZSjxjMG).
 
 ## Conclusões
 
-A cada vez que desenvolvo algo em React, acabo aprendendo muita coisa legal. O pensamento de componentização no inicio chega ser abstrato, entretanto quando você vai ligando com teorias do design, como o *Atomic Design* por exemplo, esse pensamento em componentização vai ficado muito mais claro.
-
 ### Aprendizados
 
-Aprendi que tudo pode virar um componente.
+A cada vez que desenvolvo algo em React, acabo aprendendo muita coisa legal. O pensamento de componentização no inicio chega ser abstrato, entretanto quando você vai ligando com teorias do design, como o *Atomic Design* por exemplo, esse pensamento de componentização vai ficado muito mais claro na aplicação. Consumir API por Axios é bem mais "tranquilo".
 
 ### Dificuldades
 
-:heavy_multiplication_x: ----
-
-:heavy_multiplication_x: Testes
+Tive dificuldades em achar e arquitetar uma estrutura para o projeto. Consumir API é um tópico que preciso melhorar e muito.  Utilizar o GraphQL pela primeira vez foi complicado, acabei causando um bug na parte de Reviews por um método que está depreciado e ainda não há muito material sobre ele, mas irei procurar soluções e melhorar o projeto.
 
 ### Pontos de melhorias
 
 :heavy_plus_sign: Criar e participar da cultura do TDD
 
-:heavy_plus_sign:
+:heavy_plus_sign: Organização e estimativa de tempo.
 
 ## Deploy
 
 <center>
 
-[Github](https://github.com/amandabrbz/junto-seguros.git) | [Netlify](x)
+[Github](https://github.com/amandabrbz/junto-seguros.git) | [Netlify](https://juntoseguros.netlify.app)
 </center>
 
 ## Contato
@@ -136,13 +156,3 @@ email: amanda.brbz@hotmail.com
 ## Licença
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
-## 🎓 Learning Gatsby
-
-Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
-
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
-
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
