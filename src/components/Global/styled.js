@@ -12,6 +12,18 @@ export const Title = styled.h2`
   font-size: 1.8em;
   `}
 `
+
+export const SubTitle = styled.h3`
+  margin: 30px 0 10px 0;
+  text-align: left;
+  color: #283654;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.8em;
+
+  ${media.lessThan("medium")`
+  font-size: 1.4em;
+  `}
+`
 export const Description = styled.p`
   max-width: 700px;
   margin: 0px 0 20px 0;

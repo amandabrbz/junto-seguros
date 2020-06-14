@@ -8,10 +8,10 @@ export default class Reviews extends Component {
     const { data } = this.props
     return (
       <>
-        <Title titlePage={"Review dos seus filmes favoritos"} />
+        <Title titlePage={"Review dos filmes favoritos"} />
         <Description
           descriptionPage={
-            "Descubra o que os críticos estão dizendo sobre o seu filme."
+            "Descubra o que os críticos estão dizendo sobre os mais novos lançamentos."
           }
         />
         <Posts data={data} />

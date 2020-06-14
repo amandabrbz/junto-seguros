@@ -1,9 +1,15 @@
 import React from "react"
 import { Link } from "gatsby"
 import "./styles.css"
+import { SubTitle } from "../Global"
 
 const Posts = ({ data }) => {
-  if (!data) return null
+  if (!data) {
+    return (
+      <SubTitle subtitlePage={"Nenhuma postagem ainda :("} />
+    )
+  }
+
   const { edges } = data.allMarkdownRemark
   const posts = edges.map(({ node }) => (
     <div key={node.fields.slug} className="post">

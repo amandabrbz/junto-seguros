@@ -12,6 +12,16 @@ export const Title = props => (
   </Container>
 )
 
+export const SubTitle = props => (
+  <Container>
+    <Row>
+      <Col>
+        <Styled.SubTitle>{props.subtitlePage}</Styled.SubTitle>
+      </Col>
+    </Row>
+  </Container>
+)
+
 export const Description = props => (
   <Container>
     <Row>
