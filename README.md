@@ -113,9 +113,11 @@ Para acessar os protótipos utilizados como base para codificação, acesse o [W
 
 ## Conclusões
 
+Tentei fazer um site onde a pessoa fosse para buscar indicações de filmes, como se fosse um catálogo personalizado para ela, queria expandir as indicações só para quem fosse logado, mas não tive tempo hábil para isso. Sei que não bem o intuito da API, pois ela puxa dados já da IMDb e lá é só um catálogo geral dos filmes, entretanto acredito que cumpri o propósito de consumir a APi de uma forma diferenciada.
+
 ### Aprendizados
 
-A cada vez que desenvolvo algo em React, acabo aprendendo muita coisa legal. O pensamento de componentização no inicio chega ser abstrato, entretanto quando você vai ligando com teorias do design, como o *Atomic Design* por exemplo, esse pensamento de componentização vai ficado muito mais claro na aplicação. Consumir API por Axios é bem mais "tranquilo".
+A cada vez que desenvolvo algo em React, acabo aprendendo muita coisa legal. O pensamento de componentização no inicio chega ser abstrato, entretanto quando você vai ligando com teorias do design, como o *Atomic Design* por exemplo, esse pensamento de componentização vai ficado muito mais claro na aplicação. Consumir API por Axios é bem simples.
 
 ### Dificuldades
 
@@ -123,7 +125,7 @@ Tive dificuldades em achar e arquitetar uma estrutura para o projeto. Consumir A
 
 ### Pontos de melhorias
 
-:heavy_plus_sign: Criar e participar da cultura do TDD
+:heavy_plus_sign: Criar e participar da cultura do TDD.
 
 :heavy_plus_sign: Organização e estimativa de tempo.
 
